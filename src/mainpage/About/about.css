@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1180px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 6em 0;
+    font-family: Arial, sans-serif;
+}
+
+.about__inner {
+    display: flex;
+}
+
+.about__card__line {
+    display: flex;
+}
+
+.about__text {
+    padding: 0 4em 0 0;
+    margin-top: 6em;
+}
+
+.about__text h2 {
+    margin-bottom: 1.5em;
+    font-size: 48px;
+}
+
+.about__text p {
+    font-size: 18px;
+}
+
+.about__text span {
+    font-weight: 700;
+}
+
+.about__card img {
+    width: 280px;
+    height: 261px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}

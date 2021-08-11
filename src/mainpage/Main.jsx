@@ -1,15 +1,15 @@
-import "./main.css"
+import React from 'react';
+import "./main.css";
+import Summer from './Summer/Summer';
+import About from './About/About';
 
 function Main(){
     return(
         <div className="main">
-            <div className="main-inner">
-                <div className="container">
-
-                </div>
-            </div>
+            <Summer />
+            <About />
         </div>
 
     )
 }
-export default Main
+export default Main;
