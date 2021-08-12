@@ -9,9 +9,14 @@ function About() {
   return (
     <div className="about">
       <div className="container">
+        <div className="about__title">
+          <h2>About us</h2>
+        </div>
         <div className="about__inner">
+          <div className="about__card__res">
+            <img src={img3} alt="loading..." />
+          </div>
           <div className="about__text">
-            <h2>About us</h2>
             <p>
               <span>H&M</span> is a Swedish multinational clothing-retail
               company known for its fast-fashion clothing for men, women,
