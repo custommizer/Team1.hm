@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
-import img1 from "../images/about-img-1.jpg";
-import img2 from "../images/about-img-2.jpg";
-import img3 from "../images/about-img-3.jpg";
-import img4 from "../images/about-img-4.jpg";
+import img1 from "../mainpage/images/about-img-1.jpg";
+import img2 from "../mainpage/images/about-img-2.jpg";
+import img3 from "../mainpage/images/about-img-3.jpg";
+import img4 from "../mainpage/images/about-img-4.jpg";
 
 function About() {
   return (
