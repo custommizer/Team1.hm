@@ -17,7 +17,7 @@ function App() {
         <Route path="/main">
           <Main/>
         </Route>
-        <Route>
+        <Route path="/about-page">
           <About />
         </Route>
         
