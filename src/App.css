@@ -1,34 +1,33 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.container{
-  max-width: 1300px;
+.container {
+    max-width: 1300px;
 }
-
 
 .header {
-  margin-top: 0;
-  padding: 10px;
-  width: 100%;
-  background: none;
-  position: fixed;
-  z-index: 50;
+    margin-top: 0;
+    padding: 10px;
+    width: 100%;
+    background: none;
+    position: fixed;
+    z-index: 50;
 }
 
 .Header_buttons {
-  font-size: 60px;
-  background: rgb(49, 50, 49);
-  padding: 12px 12px 0px 12px;
-  border: none;
-  color: white;
-  cursor: pointer;
-  border-radius: 10px;
+    font-size: 60px;
+    background: rgb(49, 50, 49);
+    padding: 12px 12px 0px 12px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
 }
 
 .header-inner {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
