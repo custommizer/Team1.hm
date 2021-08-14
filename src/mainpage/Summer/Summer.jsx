@@ -2,6 +2,7 @@ import React from "react";
 import "./summer.css";
 import { Link } from "react-router-dom";
 
+
 function Summer() {
   return (
     <div className="summer__section">
@@ -18,6 +19,7 @@ function Summer() {
               <button>перейти в магазин</button>
             </Link>
         </div>
+        
     </div>
   );
 }

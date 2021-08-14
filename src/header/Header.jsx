@@ -3,7 +3,8 @@ import "./menu.css"
 import Menubar from './Menubar'
 import React, {useState} from 'react'
 import {AiOutlineMenuUnfold} from 'react-icons/ai'
-import {FaCartArrowDown} from 'react-icons/fa'
+import {IoCartOutline} from 'react-icons/io5'
+import logotype from '../mainpage/images/logo.png'
 
 
 
@@ -27,7 +28,8 @@ function Header() {
             }
             
             <button  className="Header_buttons" onClick={()=>setShow(true)}><AiOutlineMenuUnfold/></button>
-            <button className="Header_buttons" onClick={()=>setKorz(true)}><FaCartArrowDown/></button>
+            <img src={logotype} />
+            <button className="Header_buttons" onClick={()=>setKorz(true)}><IoCartOutline/></button>
             
            
 
