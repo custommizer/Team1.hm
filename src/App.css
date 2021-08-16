@@ -1,15 +1,15 @@
-*{
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.container{
-  max-width: 1300px;
+.container {
+    max-width: 1300px;
 }
-
 
 .header {
+
   margin-top: 0;
   padding: 5px;
   width: 100%;
@@ -23,7 +23,7 @@
   background: none;
   padding: 6px 6px 0px 6px;
   border: none;
-  color: black;
+  
   cursor: pointer;
   border-radius: 10px;
 }
@@ -40,3 +40,4 @@
   height: 50px;
   margin: auto 0;
 }
+
