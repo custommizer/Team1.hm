@@ -1,11 +1,20 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import img1 from "../mainpage/images/about-img-1.jpg";
 import img2 from "../mainpage/images/about-img-2.jpg";
 import img3 from "../mainpage/images/about-img-3.jpg";
 import img4 from "../mainpage/images/about-img-4.jpg";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 function About() {
+  useEffect(() => {
+    Aos.init({
+      duration: 500,
+      once: true,
+    });
+  }, []);
+  
   return (
     <div className="wrapper">
       <div className="parallax">
@@ -24,13 +33,13 @@ function About() {
         <div className="container">
           <div className="about__content">
             <div className="about__title">
-              <h2>About us</h2>
+              <h2 data-aos="fade-down">About us</h2>
             </div>
             <div className="about__inner">
               <div className="about__card__res">
                 <img src={img3} alt="loading..." />
               </div>
-              <div className="about__text">
+              <div data-aos="fade-right" className="about__text">
                 <p>
                   <span>H&M</span> - шведская международная компания по
                   розничной торговле одеждой, известная своей модной одеждой для
@@ -44,7 +53,7 @@ function About() {
                   компания делает покупки в Интернете доступными в 33 странах.
                 </p>
               </div>
-              <div className="about__cards">
+              <div data-aos="fade-left" className="about__cards">
                 <div className="about__card__line">
                   <div className="about__card">
                     <img src={img1} alt="loading..." />
@@ -65,7 +74,7 @@ function About() {
             </div>
             <div className="about__history">
               <div className="container">
-                <div className="about__history__content">
+                <div data-aos="fade-down" className="about__history__content">
                   <div className="about__history__title">
                     <h1>История</h1>
                   </div>
@@ -101,9 +110,9 @@ function About() {
                       концептуальные магазины, включая COS, Weekday, Monki и
                       Cheap Понедельник, в 2009 и 2010 годах, консалтинговая
                       компания Interbrand. поставил компанию на двадцать первое
-                      место в рейтинге самых ценных глобальных брендов, что делает
-                      его лидером розничной торговли в опрос. Его стоимость
-                      оценивалась в 12–16 миллиардов долларов.
+                      место в рейтинге самых ценных глобальных брендов, что
+                      делает его лидером розничной торговли в опрос. Его
+                      стоимость оценивалась в 12–16 миллиардов долларов.
                     </p>
                     <p className="about__history__parag">
                       На конец 2011 г. у H&M находилось 2325 магазинов, а на
