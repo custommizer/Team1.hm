@@ -15,6 +15,11 @@ h3 {
     font-weight: normal;
 }
 
+.clothes__flex {
+    background: #F4EDDD;
+    padding: 70px 0;
+}
+
 .line__img img {
     width: 400px;
 }

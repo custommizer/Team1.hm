@@ -1,16 +1,19 @@
 import React, { useEffect } from "react";
 import "./clothes.css";
 import { Link } from "react-router-dom";
+import img1 from "./images/shirt-print.jpeg";
+import img2 from './images/hoodie.jpeg';
+import img3 from './images/men-shirt.jpeg';
 import Aos from "aos";
-import "aos/dist/aos.css"; 
+import "aos/dist/aos.css";
 
 function Clothes() {
   useEffect(() => {
     Aos.init({
       duration: 700,
-      once: true
-    })
-  }, [])
+      once: true,
+    });
+  }, []);
   return (
     <div className="clothes">
       <div className="container">
@@ -20,13 +23,8 @@ function Clothes() {
           </div>
           <div className="clothes__list">
             <div data-aos="fade-right" className="clothes__item">
-              <div className="clothes__img__1">
-                <div className="box__info">
-                  <Link>
-                    <p>Узнать подробнее</p>
-                  </Link>
-                </div>
-              </div>
+              <span className="desc"><Link>подробнее</Link></span>
+              <img src={img1} alt="loadaing..." />
               <div className="clothes__text">
                 <div className="clothes__link">
                   <Link>
@@ -36,38 +34,28 @@ function Clothes() {
                 <div className="clothes__cost">9999 KTZ</div>
               </div>
             </div>
-            <div data-aos="fade-up" className="clothes__item">
-              <div className="clothes__img__2">
-                <div className="box__info">
-                  <Link>
-                    <p>Узнать подробнее</p>
-                  </Link>
-                </div>
-              </div>
+            <div data-aos="fade-down" className="clothes__item">
+              <span className="desc"><Link>подробнее</Link></span>
+              <img src={img2} alt="loadaing..." />
               <div className="clothes__text">
                 <div className="clothes__link">
                   <Link>
-                    <p>Рубашка из хлопка премиум</p>
+                    <p>Джинсы Relaxed</p>
                   </Link>
                 </div>
-                <div className="clothes__cost">4999 KTZ</div>
+                <div className="clothes__cost">9999 KTZ</div>
               </div>
             </div>
-            <div data-aos="fade-right" className="clothes__item">
-              <div className="clothes__img__3">
-                <div className="box__info">
-                  <Link>
-                    <p>Узнать подробнее</p>
-                  </Link>
-                </div>
-              </div>
+            <div data-aos="fade-left" className="clothes__item">
+              <span className="desc"><Link>подробнее</Link></span>
+              <img src={img3} alt="loadaing..." />
               <div className="clothes__text">
                 <div className="clothes__link">
                   <Link>
-                    <p>Свитшот Relaxed Fit</p>
+                    <p>Джинсы Relaxed</p>
                   </Link>
                 </div>
-                <div className="clothes__cost">6999 KTZ</div>
+                <div className="clothes__cost">9999 KTZ</div>
               </div>
             </div>
           </div>

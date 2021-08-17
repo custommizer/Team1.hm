@@ -8,12 +8,12 @@ function FlexClothes() {
     useEffect(() => {
         Aos.init({
             duration: 500,
-            once: true
+            once: true,
         })
     }, [])
 
   return (
-    <div className="clothes">
+    <div className="clothes__flex">
       <div className="container">
         <div className="clothes__inner">
           <div className="clothes__line">

@@ -11,60 +11,39 @@
     padding: 2em 0;
 }
 
-.clothes__img img {
+.clothes__item img {
     max-width: 100%;
     width: 330px;
     height: auto;
 }
 
-.clothes__img__1 {
-    background: url(./images/shirt-print.jpeg) top center;
-    background-size: cover;
-    height: 500px;
-    width: 350px;
-}
-
-.clothes__img__1:hover>.box__info {
-    display: block;
-}
-
-.clothes__img__2:hover>.box__info {
-    display: block;
-}
-
-.clothes__img__3:hover>.box__info {
-    display: block;
-}
-
-.clothes__img__2 {
-    background: url(./images/men-shirt.jpeg) top center;
-    background-size: cover;
-    height: 500px;
-    width: 350px;
-}
-
-.clothes__img__3 {
-    background: url(./images/hoodie.jpeg) top center;
-    background-size: cover;
-    height: 500px;
-    width: 350px;
-}
-
-.box__info {
-    display: none;
+.desc {
+    opacity: 0;
     cursor: pointer;
-    margin: 0 4em;
-    color: #fff;
-    padding: 1em 2em;
-    background: rgba(0, 0, 0, 0.8);
     position: absolute;
-    transform: translateY(230px);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding-top: 250px;
+    text-align: center;
+    transition: all .5s;
 }
 
-.box__info a {
+.clothes__item:hover .desc {
+    opacity: 1;
+}
+
+.desc a {
     color: #fff;
-    text-decoration: none;
+    font-size: 20px;
     text-transform: uppercase;
+}
+
+.desc a:hover {
+    text-decoration: underline;
 }
 
 .clothes {

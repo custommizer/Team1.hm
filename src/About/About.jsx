@@ -11,7 +11,7 @@ function About() {
   useEffect(() => {
     Aos.init({
       duration: 500,
-      once: true,
+      once: true
     });
   }, []);
   
