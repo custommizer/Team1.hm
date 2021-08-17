@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 function Clothes() {
   useEffect(() => {
     Aos.init({
-      duration: 500,
+      duration: 700,
       once: true
     })
   }, [])
@@ -36,7 +36,7 @@ function Clothes() {
                 <div className="clothes__cost">9999 KTZ</div>
               </div>
             </div>
-            <div className="clothes__item">
+            <div data-aos="fade-up" className="clothes__item">
               <div className="clothes__img__2">
                 <div className="box__info">
                   <Link>
@@ -53,7 +53,7 @@ function Clothes() {
                 <div className="clothes__cost">4999 KTZ</div>
               </div>
             </div>
-            <div className="clothes__item">
+            <div data-aos="fade-right" className="clothes__item">
               <div className="clothes__img__3">
                 <div className="box__info">
                   <Link>
