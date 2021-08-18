@@ -82,6 +82,10 @@ h3 {
     margin-bottom: 10px;
 }
 
+.line__text button:hover {
+    background: #1d2c30;
+}
+
 .line__text a {
     color: #fff;
     text-transform: uppercase;

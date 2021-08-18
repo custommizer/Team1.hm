@@ -1,13 +1,13 @@
 import React from 'react';
 import "./main.css";
-import Summer from './Summer/Summer';
+import Intro from './Intro/Intro';
 import Clothes from '../ListOfClothes/Clothes';
 import FlexClothes from '../FlexClothes/FlexClothes';
 
 function Main(){
     return(
         <div className="main">
-            <Summer />
+            <Intro />
             <Clothes />
             <FlexClothes />
         </div>

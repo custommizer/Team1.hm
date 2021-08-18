@@ -4,76 +4,77 @@
     box-sizing: border-box;
 }
 
-.summer__section {
+.intro__section {
     padding: 300px 0;
-    background: url(../images/summertime.jpg);
-    background-size: 90% 90% ;
+    margin-top: 30px;
+    background: url(../images/intro.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: center top;
     font-family: Arial, sans-serif;
-    
+    text-align: center;
 }
 
-.summer__section__text {
-    position: absolute;
-    top: 200px;
-    left: 700px;
+.intro__section__text h1 {
+    text-transform: uppercase;
+    font-weight: normal;
+    color: #000;
+    letter-spacing: 5px;
 }
 
-.summer__section__btn {
-    position: absolute;
-    top: 320px;
-    left: 700px;
-    
+.intro__section__text p {
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb(61, 61, 61);
 }
 
-.summer__section__btn button {
+.intro__section__btn button {
     padding: 15px;
-    border-radius: 10px;
+    border-radius: 5px;
     border: none;
-    /* box-shadow: 0 0 5px #000; */
     cursor: pointer;
     background: #1f373d;
-    color: #fff;
     text-transform: uppercase;
-    
+    margin-top: 20px;
 }
 
-.summer__section__btn button:hover {
+.intro__section__btn a {
+    color: #fff;
+}
+
+.intro__section__btn button:hover {
     background: #19272b;
 }
-
-
 
 
 /* медиа запросы для текста */
 
 @media(max-width: 1200px) {
-    .summer__section__text {
+    .intro__section__text {
         left: 600px;
     }
 }
 
 @media(max-width: 1000px) {
-    .summer__section__text {
+    .intro__section__text {
         left: 400px;
     }
 }
 
 @media(max-width: 767px) {
-    .summer__section__text {
+    .intro__section__text {
         left: 270px;
     }
 }
 
 @media(max-width: 530px) {
-    .summer__section__text {
+    .intro__section__text {
         left: 200px;
     }
 }
 
 @media(max-width: 767px) {
-    .summer__section__text h1 {
+    .intro__section__text h1 {
         font-size: 36px;
     }
 }
@@ -82,31 +83,31 @@
 /* медиа запросы для кнопки  */
 
 @media(max-width: 1200px) {
-    .summer__section__btn {
+    .intro__section__btn {
         left: 600px;
     }
 }
 
 @media(max-width: 1000px) {
-    .summer__section__btn {
+    .intro__section__btn {
         left: 400px;
     }
 }
 
 @media(max-width: 767px) {
-    .summer__section__btn {
+    .intro__section__btn {
         left: 270px;
     }
 }
 
 @media(max-width: 530px) {
-    .summer__section__btn {
+    .intro__section__btn {
         left: 200px;
     }
 }
 
 @media(max-width: 472px) {
-    .summer__section__btn {
+    .intro__section__btn {
         left: 200px;
         top: 500px;
     }
@@ -116,22 +117,22 @@
 /* медиа запрос для заднего фона  */
 
 @media(max-width: 430px) {
-    .summer__section {
+    .intro__section {
         background-position: center right;
     }
-    .summer__section__btn {
+    .intro__section__btn {
         left: 100px;
     }
-    .summer__section__text {
+    .intro__section__text {
         left: 50px;
     }
 }
 
-.summer__section__text h1 {
+.intro__section__text h1 {
     font-size: 48px;
     font-weight: normal;
 }
 
-.summer__section__text p {
+.intro__section__text p {
     font-size: 14px;
 }
