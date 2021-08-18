@@ -33,7 +33,7 @@
     border-radius: 5px;
     border: none;
     cursor: pointer;
-    background: #1f373d;
+    background: #d14545;
     text-transform: uppercase;
     margin-top: 20px;
 }
@@ -43,7 +43,7 @@
 }
 
 .intro__section__btn button:hover {
-    background: #19272b;
+    background: #cf5050;
 }
 
 

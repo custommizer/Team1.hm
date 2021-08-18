@@ -3,6 +3,7 @@ import './App.css';
 import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Main from './mainpage/Main';
 import About from './About/About';
+import Rule from './Rule/Rule';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
         </Route>
         <Route path="/about-page">
           <About />
+        </Route>
+        <Route path="/rule">
+          <Rule />
         </Route>
         
       </Switch>

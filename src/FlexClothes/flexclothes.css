@@ -76,14 +76,18 @@ h3 {
 .line__text button {
     cursor: pointer;
     padding: 1em 3em;
-    background: #1f373d;
+    background: #d14545;
     border: none;
     border-radius: 3px;
     margin-bottom: 10px;
 }
 
 .line__text button:hover {
-    background: #1d2c30;
+    background: #cf5050;
+}
+
+.line__text {
+    margin-top: 150px;
 }
 
 .line__text a {
