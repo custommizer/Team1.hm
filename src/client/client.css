@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
+
+
+.client{
+    padding-top: 150px;
+    
+}
+
+.client-inner{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    box-shadow: 6px 6px 6px 6px rgb(175, 175, 175);
+    
+    
+}
+
+
+.client-logo{
+    width: 40%;
+    
+}
+
+.client-logo img{
+    width: 80%;
+    padding: 200px 0;
+    background-color: rgb(246, 4, 4);
+
+}
+
+.client-items{
+    width: 60%;
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-log{
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.client-log input{
+    font-size: 20px;
+    padding: 8px;
+    width: 60%;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    border: 1px solid grey;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.client-log h2{
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family: 'IBM Plex Sans', sans-serif;
+
+}
+
+.client-log h4{
+    margin-bottom: 5px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.client-log button{
+    width: 80px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 19px;
+    border: none;
+    background-color: red;
+    color: white;
+    margin-bottom: 10px;
+}
+.forgot{
+    font-size: 15px;
+    
+}
+
+.client-inner h1{
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+.client-inner h3{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.new-account button{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: red;
+    font-size: 18px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.client-inner button:hover{
+    background-color: green;
+    cursor: pointer;
+
+}

@@ -4,6 +4,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Main from './mainpage/Main';
 import About from './About/About';
 import Rule from './Rule/Rule';
+import Client from './client/Client';
+import Store from './store/Store'
 
 function App() {
   return (
@@ -23,6 +25,12 @@ function App() {
         </Route>
         <Route path="/rule">
           <Rule />
+        </Route>
+        <Route path="/client">
+          <Client />
+        </Route>
+        <Route path="/store">
+          <Store />
         </Route>
         
       </Switch>
