@@ -1,9 +1,9 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "./menu.css"
 import Menubar from './Menubar'
-import React, {useState} from 'react'
-import {AiOutlineMenuUnfold} from 'react-icons/ai'
-import {IoCartOutline} from 'react-icons/io5'
+import React, { useState } from 'react'
+import { AiOutlineMenuUnfold } from 'react-icons/ai'
+import { IoCartOutline } from 'react-icons/io5'
 import logotype from '../mainpage/images/logo.png'
 
 

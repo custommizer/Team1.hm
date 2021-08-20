@@ -7,7 +7,7 @@ function Rule () {
     {
       question: 'Что по качеству?',
       answer: 'Мы не делаем то, чего сами бы не носили.',
-      open: true
+      open: false
     },
     {
       question: 'Сколько доставка идет?',
