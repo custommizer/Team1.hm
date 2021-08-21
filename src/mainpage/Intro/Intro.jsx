@@ -17,7 +17,7 @@ function Intro() {
           </div>
           <div className="intro__section__btn">
             <button>
-              <Link>перейти в магазин</Link>
+              <Link to="/store">перейти в магазин</Link>
             </button>
           </div>
         </div>

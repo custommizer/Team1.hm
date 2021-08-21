@@ -28,7 +28,9 @@ function Header() {
             }
             
             <button  className="Header_buttons" onClick={()=>setShow(true)}><AiOutlineMenuUnfold/></button>
-            <img src={logotype} />
+                <Link to="/main">
+                    <img src={logotype} />
+                </Link>
             <button className="Header_buttons" onClick={()=>setKorz(true)}><IoCartOutline/></button>
             
            

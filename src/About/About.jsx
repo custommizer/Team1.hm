@@ -20,7 +20,7 @@ function About() {
       <div className="parallax">
         <div className="parallax__body">
           <div className="container parallax__container">
-            <div className="parallax__label">About Us</div>
+            <div className="parallax__label">О нас</div>
             <h1 className="parallax__title">
               Здесь вы сможете подробнее <br /> ознокомиться с историей <br />{" "}
               нашей комапании
@@ -33,7 +33,7 @@ function About() {
         <div className="container">
           <div className="about__content">
             <div className="about__title">
-              <h2 data-aos="fade-down">About us</h2>
+              <h2 data-aos="fade-down">О нашей компании</h2>
             </div>
             <div className="about__inner">
               <div className="about__card__res">

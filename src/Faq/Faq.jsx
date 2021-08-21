@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import RuleItem from './RuleItem';
-import "./rule.css";
+import FaqItem from './FaqItem';
+import "./faq.css";
 
 function Rule () {
   const [faqs, setfaqs] = useState([
@@ -38,7 +38,7 @@ function Rule () {
     <div className="rules">
       <div className="faqs">
         {faqs.map((faq, i) => (
-          <RuleItem faq={faq} index={i} toggleFAQ={toggleFAQ} />
+          <FaqItem faq={faq} index={i} toggleFAQ={toggleFAQ} />
         ))}
       </div>
     </div>
