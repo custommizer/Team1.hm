@@ -70,3 +70,9 @@
     background: none;
     color: black;
 }
+
+@media(max-width: 767px) {
+    .menu-inner {
+        width: 100%;
+    }
+}

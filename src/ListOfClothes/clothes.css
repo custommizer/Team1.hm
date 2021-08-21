@@ -96,3 +96,12 @@
         width: 330px;
     }
 }
+
+@media(max-width: 767px) {
+    .clothes {
+        padding: 3em 0;
+    }
+    .clothes__title {
+        padding: 0;
+    }
+}
