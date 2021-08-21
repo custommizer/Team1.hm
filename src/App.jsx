@@ -6,6 +6,7 @@ import About from './About/About';
 import Rule from './Rule/Rule';
 import Client from './client/Client';
 import Store from './store/Store'
+import Contacts from './contact/Contacts'
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
         </Route>
         <Route path="/store">
           <Store />
+        </Route>
+        <Route path="/call">
+          <Contacts />
         </Route>
         
       </Switch>
