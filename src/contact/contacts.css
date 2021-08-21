@@ -1,0 +1,38 @@
+.contact{
+    padding-top: 80px;
+}
+
+.contact-intro{
+    background: url('./cq5dam.web_.2400.720.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    height: 80vh;
+    width: 100%;
+    
+
+}
+
+.contact-intro h1{
+    padding: 35vh 0 ;
+    font-size: 60px;
+    color: black;
+    margin-left: 10%;
+}
+
+
+
+.all-contatcs{
+    display: flex;
+    width: 100%;
+    
+}
+
+.item{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+
