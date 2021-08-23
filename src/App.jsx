@@ -7,6 +7,7 @@ import Faq from "./Faq/Faq";
 import Client from "./client/Client";
 import Store from "./store/Store";
 import Contacts from "./contact/Contacts";
+import SignUp from './sign-up/SignUp';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
         </Route>
         <Route path="/call">
           <Contacts />
+        </Route>
+        <Route path="/sign-up">
+          <SignUp />
         </Route>
       </Switch>
     </BrowserRouter>

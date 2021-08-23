@@ -15,16 +15,19 @@ function Client() {
               <h4>Email</h4>
               <input type="email" placeholder="example@gmail.com" />
               <h4>Пароль</h4>
-              <input type="text" placeholder="Password" />
-              <button>Войти</button>
+              <input type="password" placeholder="Password" />
+              <Link>
+                <button>Войти</button>
+              </Link>
               <Link className="forgot">Забыли пароль?</Link>
-              
             </div>
 
             <h1>Нету аккаунта?</h1>
             <h3>Так зарегестрируйте его</h3>
             <div className="new-account">
-              <button>Зарегестрироватся</button>
+              <Link to="/sign-up">
+                <button>Зарегестрироватся</button>
+              </Link>
             </div>
           </div>
         </div>
