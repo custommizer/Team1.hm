@@ -9,7 +9,7 @@ function SignUp() {
       <div className="container">
         <div className="sign__box">
             <h1>
-              Начни с нами сегодня! Создайте учетную запись, заполнив информация
+              Начни с нами сегодня! Создайте учетную запись, заполнив информацию
               ниже.
             </h1>
             <div className="form-inputs">

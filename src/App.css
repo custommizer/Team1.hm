@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+::selection {
+    background: #EA3732;
+}
+
 .container {
     max-width: 1300px;
 }
