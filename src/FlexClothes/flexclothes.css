@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1,
+h2,
+h3 {
+    font-weight: normal;
+}
+
+.clothes__flex {
+    background: #F4EDDD;
+    padding: 70px 0;
+}
+
+.line__img img {
+    width: 400px;
+}
+
+.line__img {
+    text-align: center;
+}
+
+.clothes__line {
+    display: flex;
+}
+
+.img__name {
+    flex: 18;
+    padding: 30px 87px 35px 55px;
+    background: #ffcc01;
+    display: inline-block;
+}
+
+.img__name i {
+    position: relative;
+    top: 7px;
+    font-size: 25px;
+    margin-right: 30px;
+    color: #fff;
+}
+
+.clothes__line__right {
+    flex-direction: row-reverse;
+}
+
+.clothes__line__right img {
+    margin-left: 100px;
+}
+
+.short__name {
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+
+.shirt__name {
+    position: relative;
+    left: 60px;
+    bottom: 50px;
+}
+
+.right__shirt__name {
+    position: relative;
+    right: 60px;
+    bottom: 50px;
+}
+
+.line__text button {
+    cursor: pointer;
+    padding: 1em 3em;
+    background: #d14545;
+    border: none;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.line__text button:hover {
+    background: #cf5050;
+}
+
+.line__text {
+    margin-top: 150px;
+}
+
+.line__text a {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.line__text h2 {
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.line__text h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
