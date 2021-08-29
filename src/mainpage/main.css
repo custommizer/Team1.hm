@@ -2,3 +2,10 @@
     height: 100vh;
     padding-top: 60px;
 }
+
+@media (max-width: 720px){
+    .main{
+        padding-top: 35px;
+        
+    }
+}

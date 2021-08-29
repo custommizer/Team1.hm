@@ -55,10 +55,7 @@
     background-color: black;
 }
 
-.menu-list img {
-    width: 80%;
-    padding-left: 20px;
-}
+
 
 .menu-list button {
     margin-top: 20px;
@@ -71,8 +68,21 @@
     color: black;
 }
 
-@media(max-width: 767px) {
-    .menu-inner {
-        width: 100%;
+@media (max-width: 720px) {
+    .menu-inner{
+        width: 55%;
+    }
+
+    .ghostclose{
+        width: 45%;
+    }
+
+    .links_link{
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .menu-list button{
+        font-size: 60px;
     }
 }

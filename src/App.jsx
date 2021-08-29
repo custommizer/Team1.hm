@@ -8,6 +8,8 @@ import Client from "./client/Client";
 import Store from "./store/Store";
 import Contacts from "./contact/Contacts";
 import SignUp from './sign-up/SignUp';
+import Footer from "./Footer/Footer";
+import Cart from "./cart/Cart"
 
 function App() {
   return (
@@ -24,23 +26,33 @@ function App() {
         </Route>
         <Route path="/about-page">
           <About />
+          <Footer />
         </Route>
-        <Route path="/faq">
+        <Route path="/rule">
           <Faq />
+          <Footer />
         </Route>
         <Route path="/client">
           <Client />
+          <Footer />
         </Route>
         <Route path="/store">
           <Store />
+          <Footer />
         </Route>
         <Route path="/call">
           <Contacts />
         </Route>
         <Route path="/sign-up">
           <SignUp />
+          <Footer />
+        </Route>
+        <Route path="/cart">
+          <Cart />
+          <Footer />
         </Route>
       </Switch>
+        
     </BrowserRouter>
   );
 }

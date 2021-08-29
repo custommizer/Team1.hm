@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@200&display=swap');
-.client {
-    padding-top: 150px;
+
+
+.client{
+    padding: 150px 0;
+    
 }
 
 .client-inner {
@@ -96,4 +99,33 @@
 .client-inner button:hover {
     background-color: green;
     cursor: pointer;
+
+}
+
+
+@media(max-width: 720px) {
+
+    .client{
+        padding-top: 80px;
+    }
+
+    .client-inner{
+        flex-direction: column;
+    }
+    .client-logo{
+        width: 100%;
+    }
+
+    .client-logo img{
+        padding: 0;
+        width: 100%;
+    }
+
+    .client-items{
+        width: 100%;
+    }
+
+    .client-log h2{
+        text-align: center;
+    }
 }
