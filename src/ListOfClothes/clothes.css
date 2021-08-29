@@ -11,10 +11,39 @@
     padding: 2em 0;
 }
 
-.clothes__img img {
+.clothes__item img {
     max-width: 100%;
     width: 330px;
     height: auto;
+}
+
+.desc {
+    opacity: 0;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    color: #fff;
+    padding-top: 250px;
+    text-align: center;
+    transition: all .5s;
+}
+
+.clothes__item:hover .desc {
+    opacity: 1;
+}
+
+.desc a {
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.desc a:hover {
+    text-decoration: underline;
 }
 
 .clothes {
@@ -35,7 +64,7 @@
 
 .clothes__item:hover {
     background: #fafaf9;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 1);
 }
 
 .clothes__text a {
