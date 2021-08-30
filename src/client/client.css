@@ -107,13 +107,16 @@
 
     .client{
         padding-top: 80px;
+        
     }
 
     .client-inner{
         flex-direction: column;
+        width: 100%;
     }
     .client-logo{
         width: 100%;
+        height: auto;
     }
 
     .client-logo img{
