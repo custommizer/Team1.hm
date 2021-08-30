@@ -61,6 +61,15 @@ function Contacts() {
               </a>
             </div>
           </div>
+
+          <h2>Наши Адреса:</h2>
+
+          <iframe
+            src="https://yandex.com/map-widget/v1/?um=constructor%3A678d104df2512a2cbfc01ec30e6472d16e0488aa6d7d9f9a8d81906edb71668c&amp;source=constructor"
+            width="100%"
+            height="400"
+            frameborder="0"
+          ></iframe>
         </div>
         <div className="contact-map">
           <div className="container">
