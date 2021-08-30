@@ -43,40 +43,15 @@
 }
 
 .intro__section__btn button:hover {
-    background: rgb(4, 152, 4);
+    box-shadow: 0 0 10px rgb(61, 61, 61, 0.8);
 }
 
 
 /* медиа запросы для текста */
 
-@media(max-width: 1200px) {
-    .intro__section__text {
-        left: 600px;
-    }
-}
-
-@media(max-width: 1000px) {
-    .intro__section__text {
-        left: 400px;
-    }
-}
-
-@media(max-width: 767px) {
-    .intro__section__text {
-        left: 270px;
-    }
-}
-
-@media(max-width: 530px) {
-    .intro__section__text {
-        left: 200px;
-    }
-}
-
-@media(max-width: 767px) {
-    .intro__section__text h1 {
-        font-size: 36px;
-    }
+.intro__section__text h1 {
+    letter-spacing: 0;
+    font-size: 28px;
 }
 
 

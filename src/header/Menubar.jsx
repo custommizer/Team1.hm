@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom'
-import { useState } from 'react'
 import { BiUser } from 'react-icons/bi'
 import { IoCloseOutline } from 'react-icons/io5'
 import { AiOutlineRight } from 'react-icons/ai'
@@ -16,6 +15,7 @@ function Menubar({ setShow }) {
         Aos.init({ duration: 250 });
     }, []);
 
+    
 
     return (
         <div className="menu" data-aos="fade-right" >
@@ -28,7 +28,7 @@ function Menubar({ setShow }) {
                     <Link to="/about-page" className="links_link"><AiOutlineRight />О нас  </Link>
                     <Link to="/store" className="links_link"><AiOutlineRight />Магазин</Link>
                     <Link to="/call" className="links_link"><AiOutlineRight />Контакты</Link>
-                    <Link to="/rule" className="links_link"><AiOutlineRight/>Условия заказа</Link>
+                    <Link to="/faq" className="links_link"><AiOutlineRight/>Условия заказа</Link>
 
                 </div>
 

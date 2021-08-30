@@ -1,38 +1,90 @@
-.contact{
-    padding-top: 80px;
-}
-
-.contact-intro{
-    background: url('./cq5dam.web_.2400.720.jpeg');
-    background-size: cover;
-    background-repeat: no-repeat;
+    .parallax__image__cont {
+        background: url('./cq5dam.web_.2400.720.jpeg') bottom right / cover;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 80px;
+        left: 0;
+    }
     
-    height: 80vh;
-    width: 100%;
+    .parallax__title__cont {
+        font-size: 58px;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+        margin-top: 2.5em;
+    }
     
-
-}
-
-.contact-intro h1{
-    padding: 35vh 0 ;
-    font-size: 60px;
-    color: black;
-    margin-left: 10%;
-}
-
-
-
-.all-contatcs{
-    display: flex;
-    width: 100%;
+    .contact {
+        position: relative;
+        z-index: 2;
+        background: #fff;
+        padding: 6em 0 0 0;
+    }
     
-}
-
-.item{
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-    margin-bottom: 10px;
-}
-
-
+    .contact::before {
+        pointer-events: none;
+        content: '';
+        background: linear-gradient(180deg, rgba(129, 129, 129, 0) 5%, #dbdbdb 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 300px;
+        transform: translate(0px, -100%);
+    }
+    
+    .contact-info {
+        display: flex;
+        justify-content: space-around;
+        padding-bottom: 2em;
+    }
+    
+    .contact-media {
+        text-align: center;
+        padding: 2em 0;
+    }
+    
+    .contact-media span {
+        margin-right: 20px;
+        font-size: 25px;
+    }
+    
+    .contact-map-inner {
+        text-align: center;
+        padding-bottom: 1em;
+    }
+    
+    .contact-map-inner h3 {
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        opacity: 0.8;
+    }
+    
+    .contact-num-link a {
+        text-decoration: underline;
+    }
+    
+    .contact-num-link a:hover {
+        color: rgb(117, 0, 0);
+    }
+    
+    .contact-num-link a:hover>i {
+        transition: all 0.4s linear;
+        transform: rotate(720deg);
+    }
+    
+    @media(max-width: 767px) {
+        .contact-info {
+            flex-direction: column;
+            text-align: center;
+        }
+        .contact-num {
+            padding-bottom: 2em;
+        }
+        .parallax__title__cont {
+            font-size: 48px;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }

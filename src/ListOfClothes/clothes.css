@@ -48,18 +48,21 @@
 
 .clothes {
     padding: 5em 0;
+    overflow-x: hidden;
 }
 
 .clothes__list {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
 }
 
 .clothes__item {
     max-width: 350px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
     transition: 0.4s;
+    margin-top: 2em;
 }
 
 .clothes__item:hover {
@@ -91,5 +94,14 @@
     }
     .clothes__item {
         width: 330px;
+    }
+}
+
+@media(max-width: 767px) {
+    .clothes {
+        padding: 3em 0;
+    }
+    .clothes__title {
+        padding: 0;
     }
 }

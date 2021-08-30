@@ -1,9 +1,9 @@
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 import "./menu.css"
 import Menubar from './Menubar'
-import React, {useState} from 'react'
-import {AiOutlineMenuUnfold} from 'react-icons/ai'
-import {IoCartOutline} from 'react-icons/io5'
+import React, { useState } from 'react'
+import { AiOutlineMenuUnfold } from 'react-icons/ai'
+import { IoCartOutline } from 'react-icons/io5'
 import logotype from '../mainpage/images/logo.png'
 
 
@@ -28,7 +28,9 @@ function Header() {
             }
             
             <button  className="Header_buttons" onClick={()=>setShow(true)}><AiOutlineMenuUnfold/></button>
-            <img src={logotype} />
+                <Link to="/main">
+                    <img src={logotype} />
+                </Link>
             <button className="Header_buttons" onClick={()=>setKorz(true)}><IoCartOutline/></button>
             
            

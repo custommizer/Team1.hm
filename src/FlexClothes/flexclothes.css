@@ -18,6 +18,7 @@ h3 {
 .clothes__flex {
     background: #F4EDDD;
     padding: 70px 0;
+    overflow-x: hidden;
 }
 
 .line__img img {
@@ -30,6 +31,7 @@ h3 {
 
 .clothes__line {
     display: flex;
+    flex-direction: row;
 }
 
 .img__name {
@@ -37,6 +39,7 @@ h3 {
     padding: 30px 87px 35px 55px;
     background: #ffcc01;
     display: inline-block;
+    width: 375px;
 }
 
 .img__name i {
@@ -83,11 +86,13 @@ h3 {
 }
 
 .line__text button:hover {
-    background: #cf5050;
+    box-shadow: 0 0 10px rgb(61, 61, 61, 0.8);
 }
 
 .line__text {
     margin-top: 150px;
+    display: flex;
+    flex-direction: column;
 }
 
 .line__text a {
@@ -106,4 +111,56 @@ h3 {
 .line__text h3 {
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+@media(max-width: 767px) {
+    .clothes__line {
+        flex-direction: column;
+    }
+    .img__name {
+        display: none;
+    }
+    .img__name i {
+        margin-right: 10px;
+    }
+    .line__img img {
+        width: 300px;
+    }
+    .clothes__line__right {
+        flex-direction: column;
+    }
+    .clothes__line__right img {
+        margin: 0;
+    }
+    .line__text {
+        margin: 0;
+        text-align: center;
+        flex-direction: column-reverse;
+    }
+    .line__text h2 {
+        display: none;
+    }
+    .line__text p {
+        padding: 0 5em;
+    }
+    .right__shirt__name {
+        top: 0;
+        left: 0;
+    }
+    .shirt__name {
+        top: 0;
+        left: 0;
+    }
+}
+
+@media(max-width: 470px) {
+    .line__text p {
+        padding: 0 3em;
+    }
+}
+
+@media(max-width: 370px) {
+    .line__text p {
+        padding: 0;
+    }
 }
