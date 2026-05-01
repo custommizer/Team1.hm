@@ -1,0 +1,42 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1300px;
+}
+
+
+.header {
+  margin-top: 0;
+  padding: 5px;
+  width: 100%;
+  background: white;
+  position: fixed;
+  z-index: 50;
+}
+
+.Header_buttons {
+  font-size: 60px;
+  background: none;
+  padding: 6px 6px 0px 6px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-inner img{
+  padding: 0;
+  margin: 0;
+  width: 60px;
+  height: 50px;
+  margin: auto 0;
+}
